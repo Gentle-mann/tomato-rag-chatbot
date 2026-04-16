@@ -1,0 +1,55 @@
+# FastAPI & Web
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+pydantic==2.6.1
+pydantic-settings==2.2.1
+
+# Database
+sqlalchemy==2.0.25
+asyncpg==0.29.0
+alembic==1.13.1
+psycopg2-binary==2.9.9
+
+# Redis
+redis==5.0.1
+
+# RAG Framework
+llama-index==0.10.12
+llama-index-embeddings-huggingface==0.1.4
+llama-index-vector-stores-qdrant==0.1.3
+llama-index-llms-litellm==0.1.3
+
+# LLM Abstraction
+litellm==1.27.8
+
+# Vector Database
+qdrant-client==1.7.3
+
+# PDF Processing
+llama-parse==0.3.8
+pymupdf==1.23.22
+pdf2image==1.17.0
+
+# Embeddings
+sentence-transformers==2.4.0
+FlagEmbedding==1.2.9
+
+# Japanese NLP
+fugashi==1.3.0
+unidic-lite==1.0.8
+jaconv==0.3.4
+
+# Translation
+google-cloud-translate==3.14.0
+
+# Utilities
+python-dotenv==1.0.1
+httpx==0.26.0
+tenacity==8.2.3
+structlog==24.1.0
+
+# Testing
+pytest==8.0.0
+pytest-asyncio==0.23.4
+pytest-cov==4.1.0
