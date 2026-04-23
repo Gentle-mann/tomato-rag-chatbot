@@ -74,7 +74,7 @@ This document walks through everything needed to operate, maintain, and extend t
 | `REDIS_URL` | ✅ | `redis://localhost:6379` | Redis URL |
 | `QDRANT_URL` | ✅ | `http://localhost:6333` | Qdrant URL |
 | `QDRANT_COLLECTION_NAME` | ✅ | `tomato_cultivation` | Qdrant collection name |
-| `LLM_MODEL` | ✅ | `anthropic/claude-3-haiku-20240307` | LiteLLM format: `<provider>/<model>` |
+| `LLM_MODEL` | ✅ | `anthropic/claude-haiku-4-5-20251001` | LiteLLM format: `<provider>/<model>` |
 | `LLM_TEMPERATURE` | — | `0.1` | Low for factual grounding |
 | `LLM_MAX_TOKENS` | — | `2048` | Max output tokens |
 | `EMBEDDING_MODEL` | ✅ | `BAAI/bge-m3` | Multilingual dense+sparse |

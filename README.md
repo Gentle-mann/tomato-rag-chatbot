@@ -29,7 +29,7 @@ A multilingual, source-grounded RAG chatbot for tomato cultivation. Every answer
 |---|---|
 | Backend / バックエンド | FastAPI (Python 3.9+) |
 | Frontend / フロントエンド | Next.js 14 + TypeScript + Tailwind CSS |
-| LLM | Claude via LiteLLM (`anthropic/claude-3-haiku-20240307`) |
+| LLM | Claude via LiteLLM (`anthropic/claude-haiku-4-5-20251001`) |
 | Embedding / 埋め込み | BGE-M3 (dense 1024-dim + sparse) via FlagEmbedding |
 | Reranker / リランカー | `cross-encoder/mmarco-mMiniLMv2-L12-H384-v1` |
 | Vector DB / ベクトルDB | Qdrant (named vectors + RRF fusion) |
