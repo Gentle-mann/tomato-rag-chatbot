@@ -10,7 +10,7 @@ interface CitationCardProps {
 
 export function CitationCard({ citation }: CitationCardProps) {
   const { t } = useTranslation()
-  const confidencePercent = Math.round(citation.relevance_score * 100)
+  const confidencePercent = Math.min(100, Math.round(citation.relevance_score * 100))
   const isTranscript = citation.source_type === 'transcript'
 
   return (

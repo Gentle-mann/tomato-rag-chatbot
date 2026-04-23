@@ -21,18 +21,7 @@ export function ChatMessage({ message, previousMessage, onSuggestionClick }: Cha
   const [showCitations, setShowCitations] = useState(false)
   const [feedbackGiven, setFeedbackGiven] = useState<'positive' | 'negative' | null>(null)
   const isUser = message.role === 'user'
-  // Hide citations when the response indicates no relevant answer was found
-  const noAnswerPatterns = [
-    'not available in the reference materials',
-    'not covered in the given materials',
-    'not covered in the provided',
-    'この情報は参考資料に含まれていません',
-    'に関する情報が含まれていません',
-  ]
-  const hasNoAnswer = !isUser && noAnswerPatterns.some((p) =>
-    message.content.toLowerCase().includes(p.toLowerCase())
-  )
-  const hasCitations = !hasNoAnswer && message.citations && message.citations.length > 0
+  const hasCitations = !isUser && !!message.citations && message.citations.length > 0
   const isAssistantDone = !isUser && !message.isStreaming
 
   const handleFeedback = async (rating: 'positive' | 'negative') => {
