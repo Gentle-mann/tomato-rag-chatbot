@@ -1,0 +1,195 @@
+{
+  "n_questions": 29,
+  "n_chunks": 696,
+  "n_manual": 122,
+  "n_distractor": 574,
+  "hybrid": {
+    "hit@1": 58.6,
+    "hit@3": 79.3,
+    "hit@5": 86.2,
+    "mrr": 0.699
+  },
+  "reranked": {
+    "hit@1": 72.4,
+    "hit@3": 86.2,
+    "hit@5": 93.1,
+    "mrr": 0.81
+  },
+  "elapsed_s": 49.1,
+  "rows": [
+    {
+      "q": "Once seedlings are set out in the field, what daytime and nighttime temperatures should I aim for?",
+      "phrase": "25-26\u00b0C",
+      "hybrid_rank": 3,
+      "rerank_rank": 4
+    },
+    {
+      "q": "How warm should the facility be right after I sow the seeds, to get them to sprout?",
+      "phrase": "28-30\u00b0C",
+      "hybrid_rank": 1,
+      "rerank_rank": 1
+    },
+    {
+      "q": "What acidity should the soil be at when choosing a field for planting?",
+      "phrase": "5.5-6.5",
+      "hybrid_rank": 2,
+      "rerank_rank": 2
+    },
+    {
+      "q": "When thinning, how many fruit should stay on the earliest clusters?",
+      "phrase": "3 fruits for 1st",
+      "hybrid_rank": 2,
+      "rerank_rank": 1
+    },
+    {
+      "q": "How much nitrogen goes into the base fertilizer for a standard plot?",
+      "phrase": "12-15kg of nitrogen",
+      "hybrid_rank": 1,
+      "rerank_rank": 1
+    },
+    {
+      "q": "How do I tell that a young plant's stem is the right length to graft?",
+      "phrase": "reaches around 10mm",
+      "hybrid_rank": 1,
+      "rerank_rank": 1
+    },
+    {
+      "q": "Why can the bottom of the fruit still rot even when there is plenty of lime in the ground?",
+      "phrase": "absorption can be inhibited by excess nitrogen",
+      "hybrid_rank": 1,
+      "rerank_rank": 1
+    },
+    {
+      "q": "What is physically going wrong inside a puffy, under-filled tomato?",
+      "phrase": "cavities between the pericarp and placenta",
+      "hybrid_rank": 1,
+      "rerank_rank": 1
+    },
+    {
+      "q": "What kind of blemishes does the gray fungus leave on the fruit skin?",
+      "phrase": "ghost spots on fruit surfaces",
+      "hybrid_rank": 1,
+      "rerank_rank": 1
+    },
+    {
+      "q": "What time of day is best for picking so the fruit stays in good shape?",
+      "phrase": "cool morning hours",
+      "hybrid_rank": 1,
+      "rerank_rank": 1
+    },
+    {
+      "q": "What are the different ways the skin can split as the fruit ripens?",
+      "phrase": "concentric cracks",
+      "hybrid_rank": 1,
+      "rerank_rank": 1
+    },
+    {
+      "q": "How does the cucumber mosaic virus spread between plants?",
+      "phrase": "transmitted by aphids",
+      "hybrid_rank": 0,
+      "rerank_rank": 0
+    },
+    {
+      "q": "How small do the holes in the screening need to be so the pollinating bees stay inside?",
+      "phrase": "mesh size of 4mm",
+      "hybrid_rank": 1,
+      "rerank_rank": 1
+    },
+    {
+      "q": "How do the leaves look when the plant is short on magnesium?",
+      "phrase": "Interveinal areas of middle and lower leaves",
+      "hybrid_rank": 1,
+      "rerank_rank": 1
+    },
+    {
+      "q": "What happens to the very top of the plant when the growing tip fails?",
+      "phrase": "tip suddenly becomes narrow",
+      "hybrid_rank": 2,
+      "rerank_rank": 1
+    },
+    {
+      "q": "How big should a young plant be before I move it into the field?",
+      "phrase": "30-35 cm in height",
+      "hybrid_rank": 5,
+      "rerank_rank": 2
+    },
+    {
+      "q": "How closely together should I space the plants?",
+      "phrase": "6-7 plants per tsubo",
+      "hybrid_rank": 0,
+      "rerank_rank": 4
+    },
+    {
+      "q": "How much water does each plant need on a hot, clear midsummer day?",
+      "phrase": "1-1.5 L per plant",
+      "hybrid_rank": 1,
+      "rerank_rank": 1
+    },
+    {
+      "q": "What resistance was bred into the Natsumi variety that the plain Momotaro 8 lacks?",
+      "phrase": "cf9 factor",
+      "hybrid_rank": 1,
+      "rerank_rank": 1
+    },
+    {
+      "q": "What is the highest temperature at which pollen can still form normally?",
+      "phrase": "below 32.5\u00b0C",
+      "hybrid_rank": 1,
+      "rerank_rank": 1
+    },
+    {
+      "q": "What makes the tops of the fruit stay green and hard instead of coloring?",
+      "phrase": "excessive nitrogen during fruit enlargement",
+      "hybrid_rank": 0,
+      "rerank_rank": 0
+    },
+    {
+      "q": "When in the season is thrips damage at its worst here?",
+      "phrase": "mid to late July",
+      "hybrid_rank": 1,
+      "rerank_rank": 1
+    },
+    {
+      "q": "How deep do I need to work the soil so the roots have enough room?",
+      "phrase": "minimum depth of 50cm",
+      "hybrid_rank": 2,
+      "rerank_rank": 1
+    },
+    {
+      "q": "What does the mold look like on the underside of an infected leaf?",
+      "phrase": "gray-brown velvety mold",
+      "hybrid_rank": 1,
+      "rerank_rank": 1
+    },
+    {
+      "q": "How fast can the water-mold blight kill a whole plant?",
+      "phrase": "as if scalded with hot water",
+      "hybrid_rank": 1,
+      "rerank_rank": 1
+    },
+    {
+      "q": "What is an obvious sign that stems are rotting from bacteria?",
+      "phrase": "emit a foul odor",
+      "hybrid_rank": 0,
+      "rerank_rank": 2
+    },
+    {
+      "q": "What electrical-conductivity target should the nursery soil be mixed to?",
+      "phrase": "EC of 0.7-0.8",
+      "hybrid_rank": 4,
+      "rerank_rank": 1
+    },
+    {
+      "q": "How much should I dial back the base fertilizer when the plants are grafted?",
+      "phrase": "reduced by 10-20%",
+      "hybrid_rank": 2,
+      "rerank_rank": 2
+    },
+    {
+      "q": "How big should the fruit be when I go in to thin them?",
+      "phrase": "OK sign",
+      "hybrid_rank": 1,
+      "rerank_rank": 1
+    }
+  ]
+}
